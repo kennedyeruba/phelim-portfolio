@@ -1,0 +1,27 @@
+.nav-container {
+    width: 400px;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: var(--black);
+    border-right: 1px solid var(--dark-secondary);
+}
+.nav-menu {
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    flex-direction: column;
+    gap: 30px;
+    transform: translateX(-50%);
+    
+}
+.nav-menu a {
+    color: #ccc;
+    text-decoration: none;
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+.nav-menu a:hover {
+    cursor: pointer;
+}

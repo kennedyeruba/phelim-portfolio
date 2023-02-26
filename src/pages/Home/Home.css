@@ -1,0 +1,22 @@
+.home-container {
+    width: 100%;
+    height: 100%;
+    background: var(--dark-primary);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.home-text-container {
+    color: var(--white);
+}
+.home-text-container h1 {
+    font-size: 2.7rem;
+    margin-bottom: 15px;
+}
+.home-text-container h1 span {
+    font-size: 3rem;
+}
+.home-text-container p {
+    width: 600px;
+    opacity: .6;
+}

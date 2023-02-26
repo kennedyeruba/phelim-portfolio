@@ -1,0 +1,139 @@
+.about-container {
+    height: 100vh;
+    width: 100%;
+    margin: 0 auto;
+    overflow-y: scroll;
+}
+.about-page-title {
+    width: 1000px;
+    height: fit-content;
+    margin: 0 auto;
+    padding: 100px 0 50px;
+}
+.about-page-title p {
+    padding: 10px 20px;
+    font-size: .9rem;
+    width: fit-content;
+    height: fit-content;
+    font-weight: bold;
+    background: rgba(255, 255, 255, .2);
+    margin-bottom: 20px;
+    color: var(--white);
+    opacity: .5;
+    letter-spacing: -2px;
+}
+.about-page-title h1 {
+    font-size: 2.5rem;
+    letter-spacing: -1px;
+    color: var(--white);
+    font-weight: 900;
+}
+.about-bio {
+    width: 1000px;
+    height: fit-content;
+    margin: 0 auto 80px;
+}
+.about-bio > img {
+    width: 100%;
+    height: 35rem;
+    margin-bottom: 30px;
+}
+.about-bio > h1 {
+    font-size: 1.5rem;
+    color: var(--white);
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+.about-bio > p {
+    font-size: 1rem;
+    color: var(--trans-white);
+    font-weight: 600;
+}
+.about-bio .about-text {
+    width: 100%;
+    border-top: 1px solid var(--faint-white);
+    border-bottom: 1px solid var(--faint-white);
+    margin-top: 30px;
+    padding: 30px 0;
+}
+.about-bio .about-text p {
+    font-size: 1rem;
+    color: var(--trans-white);
+    line-height: 30px;
+}
+.about-bio button {
+    padding: 18px 40px;
+    background: var(--white);
+    font-size: 1rem;
+    color: var(--dark-primary);
+    margin-top: 30px;
+    border: 0;
+}
+.about-bio button:hover {
+    cursor: pointer;
+    background: var(--trans-white);
+}
+.about-info {
+    width: 100%;
+    height: fit-content;
+    padding: 30px 0;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    border-bottom: 1px solid var(--faint-white);
+}
+.about-info div {
+    width: 50%;
+}
+.about-info div:first-child {
+    margin-right: 100px;
+}
+.about-info div p {
+    font-size: 1rem;
+    color: var(--trans-white);
+    margin-bottom: 15px;
+}
+.about-info div p:last-child {
+    margin-bottom: 0;
+}
+.about-info div p span {
+    font-weight: 700;
+    margin-right: 50px;
+    color: var(--white);
+}
+.about-skill-container {
+    width: 100%;
+    height: fit-content;
+    padding: 80px 0;
+    background: var(--black);
+}
+.about-skill {
+    width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.about-skill > div {
+    width: 45%;
+}
+.about-skill > div h1 {
+    color: var(--white);
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-bottom: 50px;
+}
+.about-skill > div > div {
+    margin-bottom: 20px;
+}
+.about-skill > div > div:last-child {
+    margin-bottom: 0;
+}
+.about-skill > div > div p {
+    color: var(--white);
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}

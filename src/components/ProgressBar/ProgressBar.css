@@ -1,0 +1,9 @@
+.main-bar {
+    width: 100%;
+    height: 4px;
+    background: var(--faint-white);
+}
+.inner-bar {
+    height: 100%;
+    background: var(--trans-white);
+}
